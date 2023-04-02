@@ -1,5 +1,5 @@
 import time
-import config
+from done_texts_sender import config
 import db_methods
 import requests
 
