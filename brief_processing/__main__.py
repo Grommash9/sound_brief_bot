@@ -18,7 +18,7 @@ while True:
         data = {
             "model": "gpt-3.5-turbo",
             "messages": [
-                {"role": "system", "content": "можешь кратко описать о чем сказано в тексте но не упуская деталей пиши на языке на котором записан текст"},
+                {"role": "system", "content": "сделай краткий пересказ этого текста, пиши на языке на котором записан текст"},
                 {"role": "user",
                  "content": voice_message_text}]
         }
