@@ -1,12 +1,10 @@
-import datetime
-import db_methods
-from aiogram.dispatcher import FSMContext
-from aiogram.types import Message, ReplyKeyboardRemove
-from aiogram.types.voice import Voice
-from db_methods import users
 from aiogram import types
+from aiogram.dispatcher import FSMContext
+from aiogram.types import Message
+
+import db_methods
 from bot_app.misc import bot, dp
-from bot_app.states.user import User
+from db_methods import users
 
 
 @dp.message_handler(commands='start', state='*')
